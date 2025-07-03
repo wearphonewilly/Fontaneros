@@ -1,0 +1,8 @@
+# Archivo llms.txt para transparencia de IA
+# Más info: https://developers.google.com/search/docs/appearance/generative-ai-llms-txt
+
+llm: gpt-4
+llm-vendor: OpenAI
+llm-usage: Generación de contenido de páginas de servicios y ciudades para directorio web de fontaneros en Huesca.
+llm-date: 2024-06-07
+llm-contact: contacto@fontaneroshuesca.com 

@@ -10,11 +10,15 @@
 <body>
   <header>
     <nav class="navbar">
-      <div class="logo">Fontaneros Huesca</div>
-      <form class="search-bar" action="#" method="get">
-        <input type="text" name="q" placeholder="Buscar fontanero, servicio o ciudad..." aria-label="Buscar">
-        <button type="submit"><span aria-hidden="true">🔍</span></button>
-      </form>
+      <div class="logo"><a href="index.html" style="color:inherit;text-decoration:none;">Fontaneros Huesca</a></div>
+      <div style="display:flex;gap:1.5rem;align-items:center;">
+        <a href="servicios/servicios-fontanero.html" class="cta-btn" style="margin:0;">Servicios</a>
+        <a href="ciudades/ciudades-huesca.html" class="cta-btn" style="margin:0;">Ciudades</a>
+        <form class="search-bar" action="#" method="get" style="margin:0;">
+          <input type="text" name="q" placeholder="Buscar fontanero, servicio o ciudad..." aria-label="Buscar">
+          <button type="submit"><span aria-hidden="true">🔍</span></button>
+        </form>
+      </div>
     </nav>
   </header>
   <main>
@@ -26,11 +30,34 @@
         <li>Servicios para hogares y empresas</li>
         <li>Atención rápida y personalizada</li>
       </ul>
-      <a href="#servicios" class="cta-btn">Ver todos los servicios</a>
+      <nav class="main-links" style="display:flex;justify-content:center;gap:2rem;margin:2.5rem 0 1.5rem 0;flex-wrap:wrap;">
+        <a href="servicios/servicios-fontanero.html" class="cta-btn">Ver todos los servicios</a>
+        <a href="ciudades/ciudades-huesca.html" class="cta-btn">Buscar fontanero por ciudad</a>
+      </nav>
     </section>
   </main>
   <footer>
     <p>&copy; 2024 Fontaneros Huesca. Tu solución de confianza en la provincia.</p>
   </footer>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Fontaneros Huesca",
+    "description": "Directorio de fontaneros profesionales en la provincia de Huesca. Servicios rápidos, fiables y cerca de ti.",
+    "url": "https://willy.github.io/Fontaneros/index.html",
+    "areaServed": {
+      "@type": "State",
+      "name": "Huesca"
+    },
+    "@id": "https://willy.github.io/Fontaneros/",
+    "image": "https://willy.github.io/Fontaneros/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "contacto@fontaneroshuesca.com"
+    }
+  }
+  </script>
 </body>
 </html> 

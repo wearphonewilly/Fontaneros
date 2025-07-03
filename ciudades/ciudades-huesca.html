@@ -1,54 +1,157 @@
-  <div class="ciudades-lista">
-    <ul>
-      <li><a href="./huesca.html">Fontanero en Huesca</a></li>
-      <li><a href="./jaca.html">Fontanero en Jaca</a></li>
-      <li><a href="./barbastro.html">Fontanero en Barbastro</a></li>
-      <li><a href="./monzon.html">Fontanero en Monzón</a></li>
-      <li><a href="./sabiñanigo.html">Fontanero en Sabiñánigo</a></li>
-      <li><a href="./fraga.html">Fontanero en Fraga</a></li>
-      <li><a href="./binefar.html">Fontanero en Binéfar</a></li>
-      <li><a href="./graus.html">Fontanero en Graus</a></li>
-      <li><a href="./sarineña.html">Fontanero en Sariñena</a></li>
-      <li><a href="./almudevar.html">Fontanero en Almudévar</a></li>
-      <li><a href="./bujaraloz.html">Fontanero en Bujaraloz</a></li>
-      <li><a href="./bielsa.html">Fontanero en Bielsa</a></li>
-      <li><a href="./ainsa.html">Fontanero en Aínsa</a></li>
-      <li><a href="./santa-liestra.html">Fontanero en Santa Liestra</a></li>
-      <li><a href="./torla.html">Fontanero en Torla</a></li>
-      <li><a href="./boltana.html">Fontanero en Boltaña</a></li>
-      <li><a href="./lanaja.html">Fontanero en Lanaja</a></li>
-      <li><a href="./alcolea-cinca.html">Fontanero en Alcolea de Cinca</a></li>
-      <li><a href="./albalate-cinca.html">Fontanero en Albalate de Cinca</a></li>
-      <li><a href="./almunia-san-juan.html">Fontanero en Almunia de San Juan</a></li>
-      <li><a href="./bisaurri.html">Fontanero en Bisaurri</a></li>
-      <li><a href="./benabarre.html">Fontanero en Benabarre</a></li>
-      <li><a href="./bierge.html">Fontanero en Bierge</a></li>
-      <li><a href="./bielsa.html">Fontanero en Bielsa</a></li>
-      <li><a href="./canfranc.html">Fontanero en Canfranc</a></li>
-      <li><a href="./capella.html">Fontanero en Capella</a></li>
-      <li><a href="./casbas.html">Fontanero en Casbas de Huesca</a></li>
-      <li><a href="./cerler.html">Fontanero en Cerler</a></li>
-      <li><a href="./colungo.html">Fontanero en Colungo</a></li>
-      <li><a href="./esplus.html">Fontanero en Esplús</a></li>
-      <li><a href="./fiscal.html">Fontanero en Fiscal</a></li>
-      <li><a href="./fonz.html">Fontanero en Fonz</a></li>
-      <li><a href="./gistain.html">Fontanero en Gistaín</a></li>
-      <li><a href="./granen.html">Fontanero en Grañén</a></li>
-      <li><a href="./hecho.html">Fontanero en Hecho</a></li>
-      <li><a href="./lalueza.html">Fontanero en Lalueza</a></li>
-      <li><a href="./lascellas.html">Fontanero en Lascellas</a></li>
-      <li><a href="./lasquarre.html">Fontanero en Lasquarre</a></li>
-      <li><a href="./loarre.html">Fontanero en Loarre</a></li>
-      <li><a href="./panticosa.html">Fontanero en Panticosa</a></li>
-      <li><a href="./penalba.html">Fontanero en Peñalba</a></li>
-      <li><a href="./plan.html">Fontanero en Plan</a></li>
-      <li><a href="./robres.html">Fontanero en Robres</a></li>
-      <li><a href="./sallent-gallego.html">Fontanero en Sallent de Gállego</a></li>
-      <li><a href="./san-esteban-litera.html">Fontanero en San Esteban de Litera</a></li>
-      <li><a href="./sangarren.html">Fontanero en Sangarrén</a></li>
-      <li><a href="./santa-cilia.html">Fontanero en Santa Cilia</a></li>
-      <li><a href="./tardienta.html">Fontanero en Tardienta</a></li>
-      <li><a href="./velilla-cinca.html">Fontanero en Velilla de Cinca</a></li>
-    </ul>
-  </div>
-  <a href="../servicios/servicios-fontanero.html" class="cta-btn">Ver todos los servicios</a> 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fontanero en Huesca: Ciudades y Pueblos</title>
+  <meta name="description" content="Encuentra fontaneros profesionales en las principales ciudades y pueblos de la provincia de Huesca. Elige tu localidad y contacta con expertos cerca de ti.">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .ciudades-hero {
+      max-width: 700px;
+      margin: 3rem auto 2rem auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(27,60,83,0.07);
+      padding: 2.5rem 2rem;
+      text-align: center;
+    }
+    .ciudades-hero h1 {
+      color: #1B3C53;
+      margin-bottom: 1rem;
+    }
+    .ciudades-hero p {
+      color: #456882;
+      font-size: 1.15rem;
+      margin-bottom: 1.5rem;
+    }
+    .ciudades-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      max-width: 900px;
+      margin: 2.5rem auto 2rem auto;
+      padding: 0 1rem;
+    }
+    .ciudad-card {
+      background: #D2C1B6;
+      color: #1B3C53;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(27,60,83,0.08);
+      padding: 1.2rem 1rem;
+      text-align: center;
+      transition: transform 0.15s, box-shadow 0.15s;
+      font-size: 1.08rem;
+    }
+    .ciudad-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 6px 18px rgba(27,60,83,0.13);
+      background: #F9F3EF;
+    }
+    .ciudad-card a {
+      color: #1B3C53;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.08rem;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    @media (max-width: 600px) {
+      .ciudades-hero {
+        padding: 1.2rem 0.5rem;
+      }
+      .ciudades-grid {
+        grid-template-columns: 1fr;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="../index.html" style="color:inherit;text-decoration:none;">Fontaneros Huesca</a></div>
+      <div style="display:flex;gap:1.5rem;align-items:center;">
+        <a href="../servicios/servicios-fontanero.html" class="cta-btn" style="margin:0;">Servicios</a>
+        <a href="../ciudades/ciudades-huesca.html" class="cta-btn" style="margin:0;">Ciudades</a>
+        <form class="search-bar" action="#" method="get" style="margin:0;">
+          <input type="text" name="q" placeholder="Buscar fontanero, servicio o ciudad..." aria-label="Buscar">
+          <button type="submit"><span aria-hidden="true">🔍</span></button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="ciudades-hero">
+      <h1>Fontaneros en ciudades y pueblos de Huesca</h1>
+      <p>Selecciona tu ciudad o pueblo para ver fontaneros disponibles y servicios en tu zona. Trabajamos en toda la provincia de Huesca, tanto en grandes ciudades como en pequeños municipios.</p>
+      <nav style="margin:1.5rem 0 0.5rem 0;">
+        <a href="../servicios/servicios-fontanero.html" class="cta-btn">Ver todos los servicios</a>
+      </nav>
+    </section>
+    <div class="ciudades-grid">
+      <div class="ciudad-card"><a href="huesca.html">Fontanero en Huesca</a>Capital y servicios urgentes</div>
+      <div class="ciudad-card"><a href="jaca.html">Fontanero en Jaca</a>Especialistas en montaña</div>
+      <div class="ciudad-card"><a href="barbastro.html">Fontanero en Barbastro</a>Atención en el Somontano</div>
+      <div class="ciudad-card"><a href="monzon.html">Fontanero en Monzón</a>Soluciones rápidas</div>
+      <div class="ciudad-card"><a href="sabinanigo.html">Fontanero en Sabiñánigo</a>Urgencias y mantenimiento</div>
+      <div class="ciudad-card"><a href="fraga.html">Fontanero en Fraga</a>Fontanería en el Bajo Cinca</div>
+      <div class="ciudad-card"><a href="binefar.html">Fontanero en Binéfar</a>Reparaciones y reformas</div>
+      <div class="ciudad-card"><a href="graus.html">Fontanero en Graus</a>Servicios en la Ribagorza</div>
+      <div class="ciudad-card"><a href="sarineña.html">Fontanero en Sariñena</a>Atención en Los Monegros</div>
+      <div class="ciudad-card"><a href="almudevar.html">Fontanero en Almudévar</a>Fontaneros de confianza</div>
+      <div class="ciudad-card"><a href="bujaraloz.html">Fontanero en Bujaraloz</a>Soluciones inmediatas</div>
+      <div class="ciudad-card"><a href="bielsa.html">Fontanero en Bielsa</a>Urgencias en el Pirineo</div>
+      <div class="ciudad-card"><a href="ainsa.html">Fontanero en Aínsa</a>Fontanería rural</div>
+      <div class="ciudad-card"><a href="santa-liestra.html">Fontanero en Santa Liestra</a>Atención personalizada</div>
+      <div class="ciudad-card"><a href="torla.html">Fontanero en Torla</a>Servicios en Ordesa</div>
+      <div class="ciudad-card"><a href="boltana.html">Fontanero en Boltaña</a>Fontaneros locales</div>
+      <div class="ciudad-card"><a href="lanaja.html">Fontanero en Lanaja</a>Reparaciones urgentes</div>
+      <div class="ciudad-card"><a href="alcolea-cinca.html">Fontanero en Alcolea de Cinca</a>Fontanería profesional</div>
+      <div class="ciudad-card"><a href="albalate-cinca.html">Fontanero en Albalate de Cinca</a>Soluciones rápidas</div>
+      <div class="ciudad-card"><a href="almunia-san-juan.html">Fontanero en Almunia de San Juan</a>Atención cercana</div>
+      <div class="ciudad-card"><a href="bisaurri.html">Fontanero en Bisaurri</a>Fontanería rural</div>
+      <div class="ciudad-card"><a href="benabarre.html">Fontanero en Benabarre</a>Servicios en la Ribagorza</div>
+      <div class="ciudad-card"><a href="bierge.html">Fontanero en Bierge</a>Fontaneros de confianza</div>
+      <div class="ciudad-card"><a href="bielsa.html">Fontanero en Bielsa</a>Urgencias en el Pirineo</div>
+      <div class="ciudad-card"><a href="canfranc.html">Fontanero en Canfranc</a>Especialistas en montaña</div>
+      <div class="ciudad-card"><a href="capella.html">Fontanero en Capella</a>Fontanería profesional</div>
+      <div class="ciudad-card"><a href="casbas.html">Fontanero en Casbas de Huesca</a>Atención personalizada</div>
+      <div class="ciudad-card"><a href="cerler.html">Fontanero en Cerler</a>Servicios en el Pirineo</div>
+      <div class="ciudad-card"><a href="colungo.html">Fontanero en Colungo</a>Fontaneros locales</div>
+      <div class="ciudad-card"><a href="esplus.html">Fontanero en Esplús</a>Soluciones inmediatas</div>
+      <div class="ciudad-card"><a href="fiscal.html">Fontanero en Fiscal</a>Urgencias y reformas</div>
+      <div class="ciudad-card"><a href="fonz.html">Fontanero en Fonz</a>Fontanería profesional</div>
+      <div class="ciudad-card"><a href="gistain.html">Fontanero en Gistaín</a>Fontaneros de confianza</div>
+      <div class="ciudad-card"><a href="granen.html">Fontanero en Grañén</a>Atención en Los Monegros</div>
+      <div class="ciudad-card"><a href="hecho.html">Fontanero en Hecho</a>Servicios en el Pirineo</div>
+      <div class="ciudad-card"><a href="lalueza.html">Fontanero en Lalueza</a>Soluciones rápidas</div>
+      <div class="ciudad-card"><a href="lascellas.html">Fontanero en Lascellas</a>Fontaneros locales</div>
+      <div class="ciudad-card"><a href="lasquarre.html">Fontanero en Lasquarre</a>Fontanería profesional</div>
+      <div class="ciudad-card"><a href="loarre.html">Fontanero en Loarre</a>Urgencias y reformas</div>
+      <div class="ciudad-card"><a href="panticosa.html">Fontanero en Panticosa</a>Especialistas en montaña</div>
+      <div class="ciudad-card"><a href="penalba.html">Fontanero en Peñalba</a>Fontaneros de confianza</div>
+      <div class="ciudad-card"><a href="plan.html">Fontanero en Plan</a>Fontanería rural</div>
+      <div class="ciudad-card"><a href="robres.html">Fontanero en Robres</a>Soluciones inmediatas</div>
+      <div class="ciudad-card"><a href="sallent-gallego.html">Fontanero en Sallent de Gállego</a>Servicios en el Pirineo</div>
+      <div class="ciudad-card"><a href="san-esteban-litera.html">Fontanero en San Esteban de Litera</a>Atención personalizada</div>
+      <div class="ciudad-card"><a href="sangarren.html">Fontanero en Sangarrén</a>Fontaneros de confianza</div>
+      <div class="ciudad-card"><a href="santa-cilia.html">Fontanero en Santa Cilia</a>Fontanería profesional</div>
+      <div class="ciudad-card"><a href="tardienta.html">Fontanero en Tardienta</a>Soluciones rápidas</div>
+      <div class="ciudad-card"><a href="velilla-cinca.html">Fontanero en Velilla de Cinca</a>Fontaneros de confianza</div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Fontaneros Huesca. Tu solución local en toda la provincia.</p>
+  </footer>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Fontanero en Huesca: Ciudades y Pueblos",
+    "description": "Encuentra fontaneros profesionales en las principales ciudades y pueblos de la provincia de Huesca. Elige tu localidad y contacta con expertos cerca de ti.",
+    "url": "https://willy.github.io/Fontaneros/ciudades/ciudades-huesca.html"
+  }
+  </script>
+</body>
+</html> 

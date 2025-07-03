@@ -1,1 +1,163 @@
- 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios de Fontanería en Huesca</title>
+  <meta name="description" content="Descubre todos los servicios de fontanería que ofrecemos en la provincia de Huesca. Soluciones rápidas, profesionales y cerca de ti.">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .servicios-lista {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+      margin: 2.5rem 0 2rem 0;
+    }
+    .servicio-card {
+      background: #D2C1B6;
+      color: #1B3C53;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(27,60,83,0.08);
+      padding: 1.5rem 1.2rem;
+      width: 290px;
+      max-width: 95vw;
+      margin-bottom: 1rem;
+      text-align: left;
+      transition: transform 0.15s, box-shadow 0.15s;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .servicio-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 6px 18px rgba(27,60,83,0.13);
+    }
+    .servicio-card h2 {
+      color: #456882;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .servicio-card p {
+      font-size: 1rem;
+      color: #1B3C53;
+    }
+    .servicio-card a {
+      margin-top: 1rem;
+      align-self: flex-start;
+      color: #456882;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .servicio-card a:hover {
+      color: #1B3C53;
+    }
+    @media (max-width: 900px) {
+      .servicios-lista {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      .servicio-card {
+        width: 98vw;
+        max-width: 400px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="../index.html" style="color:inherit;text-decoration:none;">Fontaneros Huesca</a></div>
+      <div style="display:flex;gap:1.5rem;align-items:center;">
+        <a href="../servicios/servicios-fontanero.html" class="cta-btn" style="margin:0;">Servicios</a>
+        <a href="../ciudades/ciudades-huesca.html" class="cta-btn" style="margin:0;">Ciudades</a>
+        <form class="search-bar" action="#" method="get" style="margin:0;">
+          <input type="text" name="q" placeholder="Buscar fontanero, servicio o ciudad..." aria-label="Buscar">
+          <button type="submit"><span aria-hidden="true">🔍</span></button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Servicios de fontanería en Huesca</h1>
+      <p>Solucionamos cualquier problema de fontanería, desde pequeñas reparaciones hasta instalaciones completas. Elige el servicio que necesitas y accede a información detallada y profesionales de confianza en tu zona.</p>
+      <div class="servicios-lista">
+        <div class="servicio-card">
+          <h2>Reparaciones de urgencia</h2>
+          <p>Atención inmediata para fugas, roturas y averías inesperadas.</p>
+          <a href="reparaciones-urgencia.html">Ver más</a>
+        </div>
+        <div class="servicio-card">
+          <h2>Desatascos</h2>
+          <p>Eliminación de atascos en tuberías, fregaderos, WC y bajantes.</p>
+          <a href="desatascos.html">Ver más</a>
+        </div>
+        <div class="servicio-card">
+          <h2>Instalación de grifería y sanitarios</h2>
+          <p>Montaje y sustitución de grifos, inodoros, lavabos, duchas y bañeras.</p>
+          <a href="instalacion-griferia-sanitarios.html">Ver más</a>
+        </div>
+        <div class="servicio-card">
+          <h2>Detección de fugas</h2>
+          <p>Localización y reparación de fugas de agua sin obras innecesarias.</p>
+          <a href="deteccion-fugas.html">Ver más</a>
+        </div>
+        <div class="servicio-card">
+          <h2>Calefacción y agua caliente</h2>
+          <p>Instalación y reparación de calderas, termos y radiadores.</p>
+          <a href="calefaccion-agua-caliente.html">Ver más</a>
+        </div>
+        <div class="servicio-card">
+          <h2>Reformas de baño y cocina</h2>
+          <p>Renovación integral de baños y cocinas con acabados profesionales.</p>
+          <a href="reformas-bano-cocina.html">Ver más</a>
+        </div>
+        <div class="servicio-card">
+          <h2>Instalación de termos y calderas</h2>
+          <p>Montaje y sustitución de equipos de agua caliente y calefacción.</p>
+          <a href="instalacion-termos-calderas.html">Ver más</a>
+        </div>
+        <div class="servicio-card">
+          <h2>Mantenimiento preventivo</h2>
+          <p>Revisiones periódicas para evitar averías y prolongar la vida útil de tus instalaciones.</p>
+          <a href="mantenimiento-preventivo.html">Ver más</a>
+        </div>
+        <div class="servicio-card">
+          <h2>Sustitución de tuberías</h2>
+          <p>Cambio de tuberías antiguas o dañadas por materiales modernos y seguros.</p>
+          <a href="sustitucion-tuberias.html">Ver más</a>
+        </div>
+        <div class="servicio-card">
+          <h2>Fontanería para comunidades</h2>
+          <p>Servicios especializados para comunidades de vecinos y edificios.</p>
+          <a href="fontaneria-comunidades.html">Ver más</a>
+        </div>
+      </div>
+      <nav style="margin-top:2.5rem;">
+        <a href="../ciudades/ciudades-huesca.html" class="cta-btn">Buscar fontanero por ciudad</a>
+      </nav>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Fontaneros Huesca. Todos los derechos reservados.</p>
+  </footer>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Servicios de fontanería en Huesca",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Fontaneros Huesca",
+      "areaServed": "Huesca"
+    },
+    "url": "https://willy.github.io/Fontaneros/servicios/servicios-fontanero.html",
+    "description": "Descubre todos los servicios de fontanería que ofrecemos en la provincia de Huesca. Soluciones rápidas, profesionales y cerca de ti."
+  }
+  </script>
+</body>
+</html> 

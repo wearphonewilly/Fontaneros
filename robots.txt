@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://willy.github.io/Fontaneros/sitemap.xml 
